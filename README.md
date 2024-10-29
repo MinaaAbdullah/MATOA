@@ -1,0 +1,2 @@
+<h2>MATOA</h2>
+<p>Explored and analyzed Matoa's website, an e-commerce platform specializing in ethnic Indonesian accessories. Utilized technologies such as HTML, CSS, and JavaScript to assess the website's front-end structure and responsiveness. Conducted UI/UX analysis using tools like Figma and Google Analytics to evaluate user interactions, website performance, and conversion metrics. Provided recommendations to enhance the website’s functionality, user engagement, and brand integration.</p>
