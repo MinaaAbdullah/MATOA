@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>MATOA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/LOGO icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><img src="images/LOGO.png" alt="" width="170px"></label>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Watches</a></li>
+            <li><a href="#">Eyewear</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">News</a></li>
+            <li>
+                <a href="#"><img class="search" src="images/search-interface-symbol.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/user.png" alt=""> Log In</a>
+            </li>
+            <li>
+                <a href="#" class="cart"><img src="images/cart.png" alt=""></a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <img class="col-6" src="images/Vector copy.png" alt="" style="position: absolute; top: 70px;z-index: 0; margin: 70px 950px 0 ;width: 50%;">
+    <div class="contiener col-12">
+   
+    <div class="mainWatch col-9 col-s-12">
+        <img class="col-3 col-s-4" id="main" src="images/main watch.png" alt="Main Watch">
+        <h1 id="h11main" style="padding-top: 60px;padding-bottom: 10px;">WAY KAMBAS </h1>
+        <h1 id="h12main" style="padding-bottom:10px;">MINI EBONY</h1>
+        <hr style="width: 70px; height: 3px; background-color:black;margin-bottom:20px;">
+        <p class="col-6" id="pmain" style="margin-right:10px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;display: inline;">MATOA Way Kambas - This wood is chosen to represent the Sumatran Rhino's <br>skin which is designed with an overlap effect on its strap to represent Rhino's skin.</p>
+        <p class="line"><u>Discover</u></p>
+        <a onclick="addProduct()" class="addCart" id="mw" href="#"><img src="images/add-cart.png" alt="Add Cart" style="margin: 0; padding-right: 10px; ">Add to cart</a>
+        <a href="#" id="mw"><img class="Cicil" src="images/logo-cicil-white 1.png" alt="Cicil" style="margin: 0;"></a>
+
+        <a onclick="mainWatch()"  class="fram1"><img src="images/Frame 1.png" alt="fram1" style="padding: 10px; margin:0;"></a>
+        <a onclick="mainWatchBack()"  class="fram2"><img src="images/Frame 2.png" alt="fram2" style="padding: 10px; margin:0;"></a>
+    </div>
+
+
+<div class="part2 col-9 col-s-12">
+   
+    <div class="card1 col-4 col-s-12" >
+        <h1>Luxurious <strong>Eyewear</strong></h1>
+        <p>See the beauty of exotic world with the <br> luxurious glasses</p><br>
+        <h2 class="line"><u>Discover Now</u></h2>
+        <img src="images/part 2/image 7.png" alt="Glasses" style="min-width: 50%;max-width: 70%;">
+    </div>
+    <div class="card2 col-4 col-s-12" style="margin-left: 150px;float: right !important;">
+        <h1>Comfortable <strong>Watches </strong></h1>
+        <p>Feels the balancing function and beauty in <br> our wooden watches</p><br> 
+        
+        <h2 class="line"><u>Discover Now</u></h2>
+        <img src="images/part 2/image 8.png" alt="Watch">
+    </div>
+</div>
+</div>
+
+<div class="title col-9">
+<h1>Monthly Deals</h1>
+<hr>
+</div>
+
+<div class="part3 col-9 col-s-12">
+
+    <div class="card1 col-2 col-s-5">
+        <img src="images/part 3/Mask Group-1.png" alt="Watch 1">
+        <h2>Singo Maple</h2>
+        <p>20% Off</p>
+        <p><del style="text-decoration-line: line-through;text-decoration-color: #D84727;">Rp 1.500.000</del> </p>
+        <h2>Rp 1.264.000</h2><br><br>
+        <div class="addlove">
+            <a onclick="addFav()" href="#" class="imgAdd"><img src="images/part 3/love.png" alt="Heart"></a>
+            <a onclick="addProduct()" href="#" class="inAdd">Add to cart</a>
+        </div>
+    </div>
+    <div class="card1 col-2 col-s-5">
+        <img src="images/part 3/Mask Group.png" alt="Watch 2">
+        <h2>Singo Ebony</h2>
+        <p>20% Off</p>
+        <p><del style="text-decoration-line: line-through;text-decoration-color: #D84727;">Rp 1.500.000</del> </p>
+        <h2>Rp 1.264.000</h2><br><br>
+        <div class="addlove">
+            <a onclick="addFav()" href="#" class="imgAdd"><img src="images/part 3/love.png" alt="Heart"></a>
+            <a onclick="addProduct()" href="#" class="inAdd">Add to cart</a>
+        </div>
+    </div>
+    <div class="card1 col-2 col-s-5">
+        <img src="images/part 3/Mask Group-2.png" alt="Watch 3">
+        <h2>Rakai Ebony</h2>
+        <p>15% Off</p>
+        <p><del style="text-decoration-line: line-through;text-decoration-color: #D84727;">Rp 1.280.000</del> </p>
+        <h2>Rp 1.118.000</h2><br><br>
+        <div class="addlove">
+            <a onclick="addFav()" href="#" class="imgAdd"><img src="images/part 3/love.png" alt="Heart"></a>
+            <a onclick="addProduct()" href="#" class="inAdd">Add to cart</a>
+        </div>
+    </div>
+    <div class="card1 col-2 col-s-5" style="margin-right: 0%;">
+        <img src="images/part 3/Mask Group-3.png" alt="Watch 4">
+        <h2>Way Kambas Mini Maple</h2>
+        <p>10% Off</p>
+        <p><del style="text-decoration-line: line-through;text-decoration-color: #D84727;">Rp 1.280.000</del> </p>
+        <h2>Rp 1.024.000</h2>
+        <div class="addlove">
+            <br>
+            <a onclick="addFav()" href="#" class="imgAdd"><img src="images/part 3/love.png" alt="Heart"></a>
+            <a onclick="addProduct()" href="#" class="inAdd">Add to cart</a>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+<div class="part4 col-12 col-s-12">
+    <div class="title col-9" >
+        <h1>Recent News</h1>
+        <hr>
+        </div>
+
+    <div class="left col-4 col-s-12">
+        <h3>Where To Travel</h3>
+        <h1>Matoa Where <br> To Travel? Yogyakarta</h1>
+        <a href="#">Discover</a>
+    </div>
+    
+
+    <div class="right col-8 col-s-12">
+        <div class="null"></div>
+        <img class="v1" src="images/part 4/Vector.png" alt="Vector">
+        <img class="v2" src="images/part 4/Vector op.png" alt="Vector">
+        <img class="watchHand" src="images/part 4/Mask Group.png" alt="Watch Hand">
+    </div>
+
+</div>
+
+<div class="part5 col-9 col-s-12" id="test">
+    
+    <div class="firstCol col-3 col-s-6">
+
+        <div class="title col-9">
+            <h1>Maple Series</h1>
+            <hr>
+            </div>
+
+        <div class="product">
+
+            <div class="simg">
+                <img src="images/part 5/image 15.png" alt="Watch">
+            </div>
+            <div class="det">
+            <p style="font-size: 25px;letter-spacing: 1px;">Way Kambas Maple</p>
+            <h1 style="font-weight: lighter;padding-top: 5%; font-size: 32px;">Rp 1.280.000</h1>
+            </div>
+        </div>
+        <div class="product">
+
+            <div class="simg">
+                <img src="images/part 5/image 21.png" alt="Watch">
+            </div>
+            <div class="det">
+            <p style="font-size: 25px;letter-spacing: 1px;">Kaili</p>
+            <h1 style="font-weight: lighter;padding-top: 5%; font-size: 32px;">Rp 950.000</h1>
+            </div>
+        </div>
+        <div class="product">
+
+            <div class="simg">
+                <img src="images/part 5/image 16.png" alt="Watch">
+            </div>
+            <div class="det">
+            <p style="font-size: 25px;letter-spacing: 1px;">Sunda</p>
+            <h1 style="font-weight: lighter;padding-top: 5%; font-size: 32px;">Rp 1.170.000</h1>
+            </div>
+        </div>
+
+    </div>
+    <div class="firstCol col-3 col-s-6">
+
+        <div class="title col-9">
+            <h1>Ebony Series</h1>
+            <hr>
+            </div>
+
+        <div class="product">
+
+            <div class="simg">
+                <img src="images/part 5/image 20.png" alt="Watch">
+            </div>
+            <div class="det">
+            <p style="font-size: 25px;letter-spacing: 1px;">Tomia Ebony</p>
+            <h1 style="font-weight: lighter;padding-top: 5%; font-size: 32px;">Rp 960.000</h1>
+            </div>
+        </div>
+        <div class="product">
+
+            <div class="simg">
+                <img src="images/part 5/image 22.png" alt="Watch">
+            </div>
+            <div class="det">
+            <p style="font-size: 25px;letter-spacing: 1px;">Mori</p>
+            <h1 style="font-weight: lighter;padding-top: 5%; font-size: 32px;">Rp 950.000</h1>
+            </div>
+        </div>
+        <div class="product">
+
+            <div class="simg">
+                <img src="images/part 5/image 23.png" alt="Watch">
+            </div>
+            <div class="det">
+            <p style="font-size: 25px;letter-spacing: 1px;">Alor</p>
+            <h1 style="font-weight: lighter;padding-top: 5%; font-size: 32px;">Rp 1.170.000</h1>
+            </div>
+        </div>
+
+    </div>
+    <div class="firstCol col-3 col-s-6" style="margin-right: 0;">
+
+        <div class="title col-9">
+            <h1>Featured</h1>
+            <hr>
+            </div>
+
+        <div class="product">
+
+            <div class="simg">
+                <img src="images/part 5/image 17.png" alt="Watch">
+            </div>
+            <div class="det">
+            <p style="font-size: 25px;letter-spacing: 1px;">Sikka (Ebony & Maple)</p>
+            <h1 style="font-weight: lighter;padding-top: 5%; font-size: 32px;">Rp 1.198.000</h1>
+            </div>
+        </div>
+        <div class="product">
+
+            <div class="simg">
+                <img src="images/part 5/image 18.png" alt="Watch" style="padding:  30% 6%;">
+            </div>
+            <div class="det">
+            <p style="font-size: 25px;letter-spacing: 1px;">Lore Walnut</p>
+            <h1 style="font-weight: lighter;padding-top: 5%; font-size: 32px;">Rp 1.280.000</h1>
+            </div>
+        </div>
+        <div class="product">
+
+            <div class="simg">
+                <img src="images/part 5/image 19.png" alt="Watch">
+            </div>
+            <div class="det">
+            <p style="font-size: 25px;letter-spacing: 1px;">Way Kambas Limited Edition</p>
+            <h1 style="font-weight: lighter;padding-top: 5%; font-size: 32px;">Rp 1.170.000</h1>
+            </div>
+        </div>
+
+    </div>
+    <div class="seeMore" id="see">
+        <hr> <a onclick="myFunction()" >See More</a><hr>
+    </div>
+
+    </div>
+<div class="part5 col-9 col-s-12" id="click">
+    
+    <div class="firstCol col-3 col-s-6">
+
+        <div class="product">
+
+            <div class="simg">
+                <img src="images/part 5/image 15.png" alt="Watch">
+            </div>
+            <div class="det">
+            <p style="font-size: 25px;letter-spacing: 1px;">Way Kambas Maple</p>
+            <h1 style="font-weight: lighter;padding-top: 5%; font-size: 32px;">Rp 1.280.000</h1>
+            </div>
+        </div>
+        <div class="product">
+
+            <div class="simg">
+                <img src="images/part 5/image 21.png" alt="Watch">
+            </div>
+            <div class="det">
+            <p style="font-size: 25px;letter-spacing: 1px;">Kaili</p>
+            <h1 style="font-weight: lighter;padding-top: 5%; font-size: 32px;">Rp 950.000</h1>
+            </div>
+        </div>
+        <div class="product">
+
+            <div class="simg">
+                <img src="images/part 5/image 16.png" alt="Watch">
+            </div>
+            <div class="det">
+            <p style="font-size: 25px;letter-spacing: 1px;">Sunda</p>
+            <h1 style="font-weight: lighter;padding-top: 5%; font-size: 32px;">Rp 1.170.000</h1>
+            </div>
+        </div>
+
+    </div>
+    <div class="firstCol col-3 col-s-6">
+
+        <div class="product">
+
+            <div class="simg">
+                <img src="images/part 5/image 20.png" alt="Watch">
+            </div>
+            <div class="det">
+            <p style="font-size: 25px;letter-spacing: 1px;">Tomia Ebony</p>
+            <h1 style="font-weight: lighter;padding-top: 5%; font-size: 32px;">Rp 960.000</h1>
+            </div>
+        </div>
+        <div class="product">
+
+            <div class="simg">
+                <img src="images/part 5/image 22.png" alt="Watch">
+            </div>
+            <div class="det">
+            <p style="font-size: 25px;letter-spacing: 1px;">Mori</p>
+            <h1 style="font-weight: lighter;padding-top: 5%; font-size: 32px;">Rp 950.000</h1>
+            </div>
+        </div>
+        <div class="product">
+
+            <div class="simg">
+                <img src="images/part 5/image 23.png" alt="Watch">
+            </div>
+            <div class="det">
+            <p style="font-size: 25px;letter-spacing: 1px;">Alor</p>
+            <h1 style="font-weight: lighter;padding-top: 5%; font-size: 32px;">Rp 1.170.000</h1>
+            </div>
+        </div>
+
+    </div>
+    <div class="firstCol col-3 col-s-6" style="margin-right: 0;">
+
+        <div class="product">
+
+            <div class="simg">
+                <img src="images/part 5/image 17.png" alt="Watch">
+            </div>
+            <div class="det">
+            <p style="font-size: 25px;letter-spacing: 1px;">Sikka (Ebony & Maple)</p>
+            <h1 style="font-weight: lighter;padding-top: 5%; font-size: 32px;">Rp 1.198.000</h1>
+            </div>
+        </div>
+        <div class="product">
+
+            <div class="simg">
+                <img src="images/part 5/image 18.png" alt="Watch" style="padding:  30% 6%;">
+            </div>
+            <div class="det">
+            <p style="font-size: 25px;letter-spacing: 1px;">Lore Walnut</p>
+            <h1 style="font-weight: lighter;padding-top: 5%; font-size: 32px;">Rp 1.280.000</h1>
+            </div>
+        </div>
+        <div class="product">
+
+            <div class="simg">
+                <img src="images/part 5/image 19.png" alt="Watch">
+            </div>
+            <div class="det">
+            <p style="font-size: 25px;letter-spacing: 1px;">Way Kambas Limited Edition</p>
+            <h1 style="font-weight: lighter;padding-top: 5%; font-size: 32px;">Rp 1.170.000</h1>
+            </div>
+        </div>
+
+    </div>
+        <hr>
+    </div>
+
+
+    
+<div class="part6 col-12 col-s-12" id="woman">
+
+    <div class="left col-8 col-s-12">
+        <div class="null">
+            <img class="vector" src="images/part 6/Vector.png" alt="Vector">
+            <img class="woman" id="wom" src="images/part 6/Mask Group.png" alt="Woman">
+        </div>
+        
+    </div>
+    
+    <div class="right col-4 col-s-12">
+        <div class="title col-9">
+            <h1>Testimonials</h1>
+            <hr>
+        </div>
+            <div class="text">
+            <p id="pwom">Loving my new KAILI watch from @matoa_id, the first ever <br> Indonesian watch local brand that uses wood as their main <br> material. Like any other Matoa products, KAILI is inspired by <br> Indonesian heritage.</p>
+            <h2 id="h2wom">Gita Savitri</h2>
+            <h4 id="h4wom">Content Creator/Influencer</h4>
+        </div>
+    </div>  
+</div>
+
+
+<div class="btn col-4">
+    <a  href="#woman" id="left"><img src="images/part 6/left.png" alt="Dirction left"></a>
+    <a onclick="womanFunction()" id="right"><img src="images/part 6/right.png" alt="Dirction right"></a>
+</div>
+
+
+
+
+
+<div class="part7 col-9 col">
+    <div class="title col-9">
+        <h1>Instagram</h1>
+        <hr>
+    </div>
+    <div class="content">
+        <img src="images/part 7/Rectangle 38.png" alt="Instgram">
+        <img src="images/part 7/Rectangle 39.png" alt="Instgram">
+        <img src="images/part 7/Rectangle 40.png" alt="Instgram">
+        <img src="images/part 7/Rectangle 41.png" alt="Instgram">
+        <img src="images/part 7/Rectangle 42.png" alt="Instgram">
+    </div>
+</div>
+
+
+
+
+
+
+
+    <footer class="col-12">
+        <div class="footAdv col-12">
+            <div class="footAdvContent col-10">
+                <img  src="images/footer/image 26.png" alt="Sponsure">
+                <img  src="images/footer/image 27.png" alt="Sponsure">
+                <img  src="images/footer/image 25.png" alt="Sponsure">
+                <img  src="images/footer/image 28.png" alt="Sponsure">
+                <img  src="images/footer/image 29.png" alt="Sponsure">
+                <img  src="images/footer/image 32.png" alt="Sponsure">
+                <img  src="images/footer/image 33.png" alt="Sponsure">
+                <img  src="images/footer/image 34.png" alt="Sponsure">
+                <img  src="images/footer/image 35.png" alt="Sponsure">
+                <img  src="images/footer/image 36.png" alt="Sponsure">
+            </div>
+        </div>
+        <div class="mainFoot col-12" style="background-color: #D84727;">
+            <div class="footContent col-11">
+            <div class="foot1 col-3">
+                <img class="col-2" src="images/footer/logo white.png" alt="LOGO" style=" width: 300px ; height: auto;margin: 20px auto;">
+                <h3>Address</h3>
+                <h4>Store & Office
+                    Jl. Setrasari Kulon III, No. 10-12,Sukarasa, Sukasari, Bandung, Jawa Barat, Indonesia 40152</h4>
+                <h3>Office Hour</h3>
+                <h4>Monday - Sunday <br> 10.00 - 18.00</h4>
+            </div>
+            <div class="foot2 col-2">
+                <h2>Get in touch</h2><hr>
+                <!-- &nbsp; -->
+                <h3>Phone &nbsp; &nbsp;  <span style="font-size: 25px;">022-20277564</span></h3>
+                <h3>Service <br> Center &nbsp;  <span style="font-size: 25px;">0811-233-8899</span></h3>
+                <h3>Customer
+                  <br>  Service &nbsp;   <span style="font-size: 25px;">0811-235-9988</span></h3>
+                <img src="images/footer/Facebook.png" alt="Soical Media">
+                <img src="images/footer/Instagram.png" alt="Soical Media">
+                <img src="images/footer/Twitter.png" alt="Soical Media">
+                <img src="images/footer/Youtube.png" alt="Soical Media">
+            </div>
+            <div class="foot3 col-2">
+                <h2>Useful Link</h2><hr>
+                <h4>Warranty & Complaints <br>
+                    Order & Shipping <br>
+                    Tracking Order <br>
+                    About Us <br>
+                    Repair <br>
+                    Terms <br>
+                    FAQ</h4>
+            </div>
+            <div class="foot4 col-2">
+                <h2>Campaign</h2> <hr>
+                <h4>Mengenal Arti Cukup <br>
+                    Tell Your Difference <br>
+                    Waykambas <br>
+                    Rebrand <br> 
+                    Gallery <br>
+                    Singo <br>
+                    Rakai</h4>
+            </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+<script>
+
+    function mainWatch(){
+        document.getElementById("main").src = "images/nain watch 2.png";
+        document.getElementById("pmain").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, dolor voluptate voluptates <br> corrupti laboriosam hic voluptatum ut dolore obcaecati cupiditate quam quas, <br> assumenda architecto repudiandae. Eos non iusto magni error.";
+        document.getElementById("h11main").innerHTML = "Sikka ";
+        document.getElementById("h12main").innerHTML = "(Ebony & Maple)";
+    }
+
+    function mainWatchBack(){
+        document.getElementById("main").src = "images/main watch.png";
+        document.getElementById("pmain").innerHTML = "MATOA Way Kambas - This wood is chosen to represent the Sumatran Rhino's <br>skin which is designed with an overlap effect on its strap to represent Rhino's skin.";
+        document.getElementById("h11main").innerHTML = "WAY KAMBAS ";
+        document.getElementById("h12main").innerHTML = "MINI EBONY";
+    }
+
+   function myFunction(){
+    document.getElementById("click").style.display = "inline-block";
+    document.getElementById("click").style.marginTop = "-120px";
+    document.getElementById("click").style.transition = "all 2s";
+    document.getElementById("see").style.display = "none";
+    document.getElementById("test").style.marginBottom = "0";
+   }
+
+   function womanFunction() {
+    document.getElementById("wom").src ="images/part 6/Mask Group copy.png";
+    document.getElementById("pwom").innerHTML = "I used to love leather watches, but they were uncomfortable sometimes, but after trying the wooden watches from MATOA, it was a different experience in all respects. They were comfortable and unlike any watch I have ever worn in my life.";
+    document.getElementById("h2wom").innerHTML = "Mina Magdy Naseem";
+    document.getElementById("h4wom").innerHTML = "Web Developer Full Stack / ONLY";
+   }
+
+   function addProduct() {
+    alert("The product has been added to the cart successfully :)");
+  }
+   function addFav() {
+    alert("The product has been added to the Favorite successfully :)");
+  }
+</script>
+
+
+
+
+</body>
+
+</html>
